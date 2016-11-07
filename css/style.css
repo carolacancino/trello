@@ -1,20 +1,42 @@
 header {
-	background-color: #3E81EF;
-	padding:20px;
-	font-size: 25px;
+	background-color: #58169B;
+	padding:-2px;
+	font-size: 18px;
 	color: white;
 	margin-bottom:30px;
 }
 
-.tachado{
-	text-decoration: line-through;
-}
-.rojo{
-	color: red;
-}
 body{
-	background-color: #CBE8F1;
+	background-color: #A249FD;
 }
-button{
-	margin-top: 10px;
+
+.list-wrapper.mod-add {
+    height: auto;
+    min-height: 50px;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #E2E4E6;
+    -webkit-transition: background 85ms ease-in,opacity 40ms ease-in,border-color 85ms ease-in;
+    transition: background 85ms ease-in,opacity 40ms ease-in,border-color 85ms ease-in;
+}
+
+.list-wrapper:last-child {
+    margin-right: 45px;
+    l
+}
+.list-wrapper {
+    width: 190px;
+    margin: 0 15px;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.guardar{
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 5px;
 }

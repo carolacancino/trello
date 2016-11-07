@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Trello</title>
+</head>
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 text-center">
+					<h2>Trello</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="container">
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md">
+				<div class="js-add-list list-wrapper mod-add">
+					<form>
+						<span class="barra"></span>
+						<input class="list-name-input" type="text" name="name" placeholder="Añadir una lista..." id="auto" autocomplete="off" dir="auto" maxlength="512" onclick="añadirTarea()">
+						<div class="list-add-controls u-clearfix">
+							<input class="guardar" type="submit" value="Guardar">
+							<a class="icon-lg icon-close dark-hover js-cancel-edit" href="#"></a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type='text/javascript' src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
